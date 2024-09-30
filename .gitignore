@@ -1,0 +1,32 @@
+# Pastas de compilação e temporárias
+build/
+dist/
+out/
+temp/
+*.tmp
+*.log
+
+# Arquivos executáveis
+*.exe
+
+# Arquivos de backup
+*.bak
+*.old
+*.orig
+
+# Arquivos específicos do Python (se aplicável)
+__pycache__/
+*.py[cod]
+
+# Arquivos do sistema (Windows, macOS, etc.)
+Thumbs.db
+.DS_Store
+
+# Arquivos do ambiente virtual (se for usar Python)
+venv/
+.env
+*.env
+
+# Arquivos de configuração do IDE (opcional)
+.vscode/
+.idea/
