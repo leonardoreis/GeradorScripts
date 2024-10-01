@@ -31,3 +31,24 @@ Para gerar o executável que ficará disponível na pasta `DIST`, use o seguinte
 
 ```bash
 pyinstaller gerador.spec
+```
+
+## Execução
+
+Abra o Prompt de Comando como Administrador
+
+No Windows, pressione Win + S, pesquise por "cmd", clique com o botão direito no "Prompt de Comando" e selecione Executar como administrador.
+
+Navegue até a pasta onde o executável foi gerado
+Use o comando cd no Prompt de Comando para mudar para o diretório onde está o gerador.exe. Exemplo:
+
+```bash
+cd C:\Caminho\Para\Pasta\dist
+```
+
+### Exemplo de Execução
+```bash
+gerador.exe C:\Usuarios\Leonardo\Documents\lista_seriais.xlsx
+```
+
+O programa irá gerar arquivos .bat para cada máquina com base nas informações fornecidas no arquivo Excel.
